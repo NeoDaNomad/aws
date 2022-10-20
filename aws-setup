@@ -5,6 +5,6 @@ sudo apt install tightvncserver;
 vncserver;
 vncserver -kill :1;
 mv ~/.vnc/xstartup ~/.vnc/xstartup.bak;
-mv ~/xstartup ~/.vnc/;
+mv ~/aws/xstartup ~/.vnc/;
 chmod +x ~/.vnc/xstartup;
 vncserver -localhost;
